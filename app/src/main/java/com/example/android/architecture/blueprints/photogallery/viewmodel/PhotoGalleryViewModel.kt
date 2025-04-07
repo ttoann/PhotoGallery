@@ -28,12 +28,12 @@ class PhotoGalleryViewModel : ViewModel() {
         private set
 
     init {
-        for (i in 20..30) {
+        for (i in 1..10) {
             _photos.add(
                 Photo(
                     id = "photo_$i",
-                    url = "https://picsum.photos/id/${100 + i}/800/600",
-                    thumbnail = "https://picsum.photos/id/${100 + i}/200/200",
+                    url = "https://picsum.photos/id/${110 + i}/800/600",
+                    thumbnail = "https://picsum.photos/id/${110 + i}/200/200",
                     title = "Photo $i"
                 )
             )
